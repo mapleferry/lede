@@ -8,8 +8,6 @@
 name: OpenWrt-CI
 
 on:
-  workflow_dispatch: Run Opwrt-build
-  
   schedule:
     - cron: 0 20 * * *
 
